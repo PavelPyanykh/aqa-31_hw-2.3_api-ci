@@ -13,7 +13,7 @@ public class PostmanEchoTest {
         // Предусловия
         given()
                 .baseUri("https://postman-echo.com")
-                .body("Demo data") // отправляемые данные (заголовки и query можно выставлять аналогично)
+                .body("Demo") // отправляемые данные (заголовки и query можно выставлять аналогично)
 
                 // Выполняемые действия
                 .when()
